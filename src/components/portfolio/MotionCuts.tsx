@@ -26,14 +26,14 @@ export function MotionCuts() {
               style={{ aspectRatio: "16 / 9" }}
             >
               <AutoVideo
-                src={media.nike}
-                poster={media.nikePoster}
+                src={media.car}
+                poster={media.carPoster}
                 className="size-full object-cover"
               />
             </div>
             <figcaption className="mt-4 flex items-baseline justify-between gap-4 border-t border-foreground/15 pt-3">
-              <span className="text-sm text-bone">Nike — Air Max</span>
-              <span className="label">Kinetic type · 2026</span>
+              <span className="text-sm text-bone">Night Drive — automotive edit</span>
+              <span className="label">Colour grade · 2026</span>
             </figcaption>
           </figure>
         </ParallaxLayer>
