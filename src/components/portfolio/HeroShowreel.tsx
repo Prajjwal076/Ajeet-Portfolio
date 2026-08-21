@@ -33,8 +33,8 @@ export function HeroShowreel() {
     <section ref={section} className="relative h-svh w-full overflow-hidden bg-ink">
       <div ref={videoWrap} className="absolute inset-0">
         <AutoVideo
-          src={media.car}
-          poster={media.carPoster}
+          src={media.nike}
+          poster={media.nikePoster}
           className="size-full object-cover opacity-70"
           style={{ objectPosition: "50% 45%" }}
         />
@@ -78,7 +78,7 @@ export function HeroShowreel() {
           <p className="max-w-sm text-sm text-bone/70">
             Kinetic type, posters and edits — a reel of work where the frame keeps moving.
           </p>
-          <span className="label text-bone/60">Scroll ↓ Showreel 01 / Night Drive</span>
+          <span className="label text-bone/60">Scroll ↓ Showreel 01 / Nike — Air Max</span>
         </div>
       </div>
     </section>
