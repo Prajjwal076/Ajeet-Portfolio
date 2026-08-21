@@ -50,8 +50,8 @@ function ArchivePage() {
           The <span className="text-primary">Archive</span>
         </h1>
         <p className="mt-6 max-w-lg text-sm leading-relaxed text-bone/70">
-          Everything in one room — posters, brand layouts, kinetic type and edits. New work gets added
-          here first.
+          Everything in one room — posters, brand layouts, kinetic type and edits. New work gets
+          added here first.
         </p>
 
         <div className="mt-10 flex flex-wrap gap-3 border-t border-foreground/15 pt-6">
@@ -82,6 +82,10 @@ function ArchivePage() {
                   <AutoVideo
                     src={item.src}
                     poster={item.poster ?? ""}
+                    controls
+                    muted={false}
+                    autoPlayOnView={false}
+                    loop={false}
                     className="size-full object-cover"
                   />
                 ) : (

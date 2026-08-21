@@ -28,6 +28,10 @@ export function MotionCuts() {
               <AutoVideo
                 src={media.car}
                 poster={media.carPoster}
+                controls
+                muted={false}
+                autoPlayOnView={false}
+                loop={false}
                 className="size-full object-cover"
               />
             </div>
@@ -62,6 +66,10 @@ export function MotionCuts() {
                   <AutoVideo
                     src={clip.src}
                     poster={clip.poster}
+                    controls
+                    muted={false}
+                    autoPlayOnView={false}
+                    loop={false}
                     className="size-full object-cover"
                   />
                 </div>
